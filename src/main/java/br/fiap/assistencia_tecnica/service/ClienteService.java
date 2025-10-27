@@ -32,6 +32,8 @@ public class ClienteService {
         return clienteRepository.findById(id).orElse(null);
     }
 
-
+//    public listarEquipamentoPorCliente(Long idCliente){
+//
+//    }
 
 }

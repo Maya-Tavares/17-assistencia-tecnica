@@ -7,5 +7,6 @@ import java.util.List;
 
 public interface EquipamentoRepository
         extends JpaRepository<Equipamento, Long> {
-    public List<Equipamento> findByClienteId(Long idCliente)
+
+    public List<Equipamento> findByClienteId(Long idCliente);
 }
