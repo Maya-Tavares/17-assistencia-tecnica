@@ -23,4 +23,6 @@ public class EquipamentoDTO {
     private String modelo;
     private String numeroSerie;
     private LocalDate dataCadastro;
+    private Long idCliente;
+
 }
